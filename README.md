@@ -1,2 +1,2 @@
-# Algorithm
-알고리즘 테스트 문제 저장소
+# TIL (Today I Learned)
+알고리즘 풀이 + 학습일지 작성
