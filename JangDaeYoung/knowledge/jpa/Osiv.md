@@ -3,6 +3,9 @@
 ![image](https://github.com/Longstick0/TIL/assets/69510442/20bd820d-ea72-4580-b167-2a0ea45c2164)
 
 ### ```spring.jpa.open-in-view```: ```true```(기본값)
+- 다음은 default(true)값으로 설정하고 Application 실행 시 뜨는 오류 메세지다.
+![image](https://github.com/Longstick0/TIL/assets/69510442/0ee183e7-cfb6-4aa3-8577-d862ce42a125)
+![image](https://github.com/Longstick0/TIL/assets/69510442/2c9c3d18-0b35-4a4c-ba0d-f993d6649ae6)
 
 - 언제 jpa가 DB Connection을 가져오고, 언제 반환을 할지에 대한 문제
 
