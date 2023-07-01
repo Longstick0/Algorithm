@@ -1,4 +1,4 @@
-package study.백준.boj;
+package boj;
 
 import java.io.*;
 
