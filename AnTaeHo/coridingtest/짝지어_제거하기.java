@@ -1,3 +1,5 @@
+package coridingtest;
+
 import java.util.Stack;
 
 public class 짝지어_제거하기 {

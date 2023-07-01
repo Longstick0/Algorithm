@@ -1,3 +1,5 @@
+package coridingtest;
+
 public class 다음_큰_숫자 {
     public static void main(String[] args) {
 

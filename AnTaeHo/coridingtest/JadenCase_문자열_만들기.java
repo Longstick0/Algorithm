@@ -1,3 +1,5 @@
+package coridingtest;
+
 public class JadenCase_문자열_만들기 {
     public static void main(String[] args) {
 

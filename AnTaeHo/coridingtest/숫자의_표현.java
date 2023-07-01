@@ -1,3 +1,5 @@
+package coridingtest;
+
 public class 숫자의_표현 {
 
     public static void main(String[] args) {
