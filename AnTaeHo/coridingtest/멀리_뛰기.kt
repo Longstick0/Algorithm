@@ -1,5 +1,9 @@
 package coridingtest
 
+fun main() {
+
+}
+
 class 멀리_뛰기 {
     fun solution(n: Int): Long {
         val dp = LongArray(n+1)
