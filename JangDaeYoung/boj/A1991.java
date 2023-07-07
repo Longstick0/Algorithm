@@ -47,8 +47,6 @@ public class A1991 {
     }
 
     public static void insertNode(Node temp, char root, char left, char right) {
-
-
         if (temp.value == root) {
             temp.left = (left == '.' ? null : new Node(left,null,null));
             temp.right = (right == '.' ? null : new Node(right,null,null));
