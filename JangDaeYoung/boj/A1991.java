@@ -5,6 +5,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+/**
+ * 트리 순회
+ */
 public class A1991 {
     static Node head = new Node('A', null, null);
 
