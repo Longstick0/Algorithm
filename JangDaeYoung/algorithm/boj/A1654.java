@@ -30,12 +30,12 @@ public class A1654 {
         }
         max++;
         long min = 0;
-        long mid = 0;
+        long mid;
         while (min < max) {
             mid = (max + min) / 2;
             long count = 0;
-            for (int i = 0; i < arr.length; i++) {
-                count += (arr[i] / mid);
+            for (int j : arr) {
+                count += (j / mid);
             }
             if(count < N) {
                 max = mid;

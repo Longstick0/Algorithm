@@ -15,8 +15,8 @@ public class A1157 {
         char[] s = br.readLine().toUpperCase().toCharArray();
         int[] arr = new int[26];
 
-        for (int i = 0; i < s.length; i++) {
-            int tmp = s[i] - 'A';
+        for (char c : s) {
+            int tmp = c - 'A';
             arr[tmp]++;
         }
 

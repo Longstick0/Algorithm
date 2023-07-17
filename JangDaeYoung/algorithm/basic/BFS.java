@@ -15,7 +15,7 @@ public class BFS {
         }
     }
 
-    public static void BFS(Node root) {
+    public static void bfs(Node root) {
         Queue<Node> queue = new LinkedList<>();
         queue.offer(root);
         int level = 0;
@@ -42,6 +42,6 @@ public class BFS {
         root.rt.lt = new Node(6);
         root.rt.rt = new Node(7);
 
-        BFS(root);
+        bfs(root);
     }
 }

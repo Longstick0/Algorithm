@@ -48,7 +48,6 @@ public class A1018 {
     public static int find(int x, int y) {
         int count = 0;
         char firstPoint = arr[x][y];
-        int jPointer = 0;
 
         for (int i = x; i < x + 8; i++) {
             for (int j = y; j < y + 8; j++) {

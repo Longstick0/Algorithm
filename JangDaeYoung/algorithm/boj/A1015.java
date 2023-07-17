@@ -26,7 +26,7 @@ public class A1015 {
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N; j++) {
                 if(A[i] == B[j]) {
-                    sb.append(j + " ");
+                    sb.append(j).append(" ");
                     B[j] = -1;
                     break;
                 }
