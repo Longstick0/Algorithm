@@ -17,9 +17,9 @@ public class A7568 {
         StringTokenizer st;
         size = Integer.parseInt(br.readLine());
 
-        int weight[] = new int[size];
-        int height[] = new int[size];
-        int rank[] = new int[size];
+        int[] weight = new int[size];
+        int[] height = new int[size];
+        int[] rank = new int[size];
 
         for (int i = 0; i < size; i++) {
             st = new StringTokenizer(br.readLine());
