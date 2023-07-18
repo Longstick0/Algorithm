@@ -7,7 +7,7 @@ fun main() {
 
 }
 
-class Pair {
+class Pair<T, U> {
     fun solution(X: String, Y: String): String {
         var answer = ""
         for (ch in (9 downTo 0).toList().map { it.toString() }) {
