@@ -1,4 +1,4 @@
-package coridingtest;
+package boj;
 
 import java.util.Scanner;
 
