@@ -24,6 +24,9 @@ public class A11047 {
 
         for (int i = 0; i < n; i++) {
             int value = Integer.parseInt(br.readLine());
+            if (price < value) {
+                break;
+            }
             arr.add(value);
         }
 
@@ -33,5 +36,6 @@ public class A11047 {
             price = price % value;
         }
         System.out.println(result);
+
     }
 }
